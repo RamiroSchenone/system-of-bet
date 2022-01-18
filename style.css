@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.template{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 8%;
+    position: absolute;
+}
+
+#initialBet{
+    margin-bottom: 10px;
+}
+
+#btnPlay{
+    display: block;
+    position: relative;
+    left: 340px;
+    top: 10px;
+}
+
+.result{
+    border: 1px solid black;
+    min-height: 300px;
+    margin-right: 100px;
+    padding-top: 10%;
+}
+
+.record{
+    width: 100%;
+    margin-left: 100px;
+    position: absolute;
+    top: 85%;
+    min-height: 300px;
+}
+
+.balance{
+    margin-bottom: 10px;
+}

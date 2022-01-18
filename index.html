@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini sistema de apuestas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="title">Mini sistema de apuestas</h1>
+
+    <div class="template">
+        <div class="initialBet">
+            <h3>Apuesta inicial</h3>
+            <input id="initialBet" type="number">
+            <h3>Numero a apostar:</h3>
+            <input id="num" type="number">
+            <button id="btnPlay" disabled>Jugar</button>
+        </div>
+        <div class="result">
+            <h2>Resultado</h2>
+            <h3>Dado 1 = <span id="d1"> 0 </span></h3>
+            <h3>Dado 2 = <span id="d2"> 0 </span></h3>
+            <h3>Suma de dados = <span id="sdd"> 0 </span></h3>
+            <h3>Pago = $ <span id="bet">0</span></h3>
+            <h3>Estado: <span id="result"></span></h3>
+        </div>
+    </div>
+
+    <div id="record" class="record">
+
+        <ol></ol>
+    
+        <div id="total" class="balance"><b>Saldo:</b> $ <span id="balance">0</span></div>
+    
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
